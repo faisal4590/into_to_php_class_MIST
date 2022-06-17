@@ -36,5 +36,13 @@
             echo "name : " . $name . ' ,' . 'Roll: ' . $roll . '<br />';
         }
     ?>
+
+    <!-- php date time -->
+    <?php
+        date_default_timezone_set('America/Los_Angeles');
+        echo date('Y-M-D h:m:sa');
+    ?>
+    <br>
+    <?php include 'footer.php' ?>
 </body>
 </html>
